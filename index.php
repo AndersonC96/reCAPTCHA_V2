@@ -9,4 +9,15 @@
     <body>
         <h1>Formulário reCAPTCHA V2</h1>
         <hr>
+        <form method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" required>
+            </div>
+            <div>
+                <label>E-mail</label>
+                <input type="email" name="email" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
     </body>
